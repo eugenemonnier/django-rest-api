@@ -13,7 +13,6 @@ class ReviewTests(TestCase):
       author = testyMcTester,
       beer_name = "Coors",
       body = "Cold piss",
-
     )
     test_review.save()
   
