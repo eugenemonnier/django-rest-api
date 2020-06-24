@@ -3,17 +3,19 @@
 ## Features
 ### General
 
-- Get messy!
-- add more models
-- relate those models
-- make additions/changes to models in several steps
+- Rebuild a custom version of `Blog API` demo project from scratch.
+    - Replace `Blog` and `Post` with your own application and model.
+    - Your model must have at least as many fields as demo’s model.
+    - Your model must have one field that is a foreign key to user.
+    - **NOTE**: You are not required to build any templates for this lab.
 
-### Django REST Framework
 
-- Make your site a DRF powered API as you did in previous lab.
-- Adjust project’s permissions so that only authenticated user’s have access to API.
-- Add a custom permission so that only author of blog post can update or delete it.
-- Add ability to switch user’s directly from browsable API.
+### Docker
+
+- **NOTE** Refer to the class demo for built out `Dockerfile` and `docker-compose.yml` examples.
+- Update `Dockerfile` and `docker-compose.yml` if needed.
+
 
 # Pull Request
 [PR #1](https://github.com/eugenemonnier/django-rest-api/pull/1)
+[PR #2](https://github.com/eugenemonnier/django-rest-api/pull/2)
